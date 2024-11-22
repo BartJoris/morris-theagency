@@ -33,14 +33,14 @@ export default function About() {
               Wiese Deleu
             </h2>
             <div className="absolute -right-8 top-0 animate-spin-slow">
-              <Image src="/assets/pinwheel.svg" alt="Decorative pinwheel" width={40} height={40} />
+              <Image src="/morris-theagency/assets/pinwheel.svg" alt="Decorative pinwheel" width={40} height={40} />
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="relative aspect-square">
               <Image
-                src="/assets/about-landscape.jpg"
+                src="/morris-theagency/assets/about-landscape.jpg"
                 alt="Decorative landscape"
                 fill
                 className="object-cover rounded-lg"

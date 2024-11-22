@@ -18,7 +18,7 @@ export default function Contact() {
           {/* Pinwheel in the middle */}
           <div className="flex justify-center">
             <div className="w-32 h-32 animate-spin-slow">
-              <Image src="/assets/pinwheel.svg" alt="Decorative pinwheel" width={128} height={128} />
+              <Image src="/morris-theagency/assets/pinwheel.svg" alt="Decorative pinwheel" width={128} height={128} />
             </div>
           </div>
 

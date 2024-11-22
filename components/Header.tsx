@@ -32,7 +32,7 @@ export default function Header() {
     <header className="bg-[#FAF6EF] p-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-4xl font-vibes text-[#B1030E]">
-          <Image src="/assets/logo.png" alt="Morris The Agency Logo" width={150} height={50} />
+          <Image src="/morris-theagency/assets/logo.png" alt="Morris The Agency Logo" width={150} height={50} />
         </Link>
         <nav>
           <ul className="flex space-x-4 font-roboto-mono text-[#0D0D0D]">

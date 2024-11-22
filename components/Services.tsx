@@ -69,7 +69,7 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <div className="h-64 md:h-80 relative">
             <Image
-              src="/assets/services-image-1.jpg"
+              src="/morris-theagency/assets/services-image-1.jpg"
               alt="Cyclist on a gravel bike"
               fill
               className="object-cover"
@@ -78,7 +78,7 @@ export default function Services() {
           </div>
           <div className="h-64 md:h-80 relative">
             <Image
-              src="/assets/services-image-2.jpg"
+              src="/morris-theagency/assets/services-image-2.jpg"
               alt="Child in yellow jacket"
               fill
               className="object-cover"
@@ -87,7 +87,7 @@ export default function Services() {
           </div>
           <div className="h-64 md:h-80 relative">
             <Image
-              src="/assets/services-image-3.jpg"
+              src="/morris-theagency/assets/services-image-3.jpg"
               alt="Modern kitchen interior"
               fill
               className="object-cover"
