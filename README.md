@@ -1,26 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Morris The Agency
+
+This is a [Next.js](https://nextjs.org) project for the website [www.morristheagency.be](http://www.morristheagency.be), bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+To set up this project on your local workstation, follow these steps:
 
+### Prerequisites
+
+Make sure you have the following installed on your Mac:
+
+- **Node.js**: You can download it from [nodejs.org](https://nodejs.org/). It's recommended to install the LTS version.
+- **npm**: This comes bundled with Node.js, but you can also install it separately if needed.
+
+### Installation Steps
+
+1. **Clone the Repository**: Open your terminal and run the following command to clone the repository:
+   ```bash
+   git clone https://github.com/bartjoris/morris-theagency.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd morris-theagency
+   ```
+
+3. **Install Dependencies**: Run the following command to install the necessary packages:
+   ```bash
+   npm install
+   ```
+
+4. **Run the Development Server**: Start the development server with:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the application running.
+
+### Building for Production
+
+To build the application for production, run:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Deploying to GitHub Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To deploy the application to GitHub Pages, run:
+```bash
+npm run deploy
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
+### Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
