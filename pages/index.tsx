@@ -14,7 +14,7 @@ export default function Home() {
         <Services />
         <Contact />
       </main>
-      <footer className="bg-[#0D0D0D] text-[#FAF6EF] py-4 text-center font-roboto-mono">
+      <footer className="bg-[#B1030E] text-white py-4 text-center font-roboto-mono">
         <p>&copy; 2024 Morris The Agency. Alle rechten voorbehouden.</p>
       </footer>
     </div>

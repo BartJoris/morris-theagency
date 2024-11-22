@@ -34,18 +34,18 @@ export default function Contact() {
               wiese@morristheagency.be
             </Link>
             <p className="text-xl font-roboto-mono text-[#B1030E] my-2">
-              +32 494 38 22 85
+              <a href="tel:+32494382285">+32 494 38 22 85</a>
             </p>
             <div className="flex justify-end space-x-4 mt-4">
-              <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              {/* <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <Facebook className="w-8 h-8 text-[#B1030E] hover:text-[#F24957] transition-colors" />
-              </Link>
-              <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              </Link> */}
+              <Link href="https://instagram.com/morris.theagency" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="w-8 h-8 text-[#B1030E] hover:text-[#F24957] transition-colors" />
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              {/* <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="w-8 h-8 text-[#B1030E] hover:text-[#F24957] transition-colors" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

@@ -50,11 +50,9 @@ export default function Hero() {
               <span className="absolute inset-0 border-2 border-[#B1030E] rounded-full"></span>
             </span>
             <span>&</span>
-            <span className="relative">
-              <span className="relative z-10">SOCIAL</span>
-              <span className="absolute bottom-0 left-0 w-full border-b-4 border-[#B1030E]"></span>
-              <span className="absolute bottom-[6px] left-0 w-full border-b-4 border-[#B1030E]"></span>
-            </span>
+            <div className="flex justify-center items-center">
+              <span className="relative z-10 whitespace-nowrap">SOCIAL</span>
+            </div>
             <span className="relative inline-flex items-center">
               <span className="relative z-10 px-2">MEDIA</span>
               <span className="absolute inset-0 border-2 border-[#B1030E]"></span>

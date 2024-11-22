@@ -98,7 +98,9 @@ export default function Services() {
 
         <div className="text-center">
           <p className="inline-block bg-[#F24957] text-white px-8 py-4 rounded-full font-roboto-mono">
-            Neem contact met ons op voor meer informatie en prijsdetails! 🌸
+            <a href="#contact" className="cursor-pointer">
+              Neem contact met ons op voor meer informatie en prijsdetails! 🌸
+            </a>
           </p>
         </div>
       </div>
