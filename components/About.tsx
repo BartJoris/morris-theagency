@@ -40,8 +40,8 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="relative aspect-square">
               <Image
-                src="/assets/about-landscape.jpg"
-                alt="Decorative landscape"
+                src="/assets/wiese.jpg"
+                alt="Wiese Deleu"
                 fill
                 className="object-cover rounded-lg"
               />

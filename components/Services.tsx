@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button"
 
 const services = [
   {
-    title: 'productfotografie',
+    title: 'Product fotografie',
     content: "Verkoop je online? Dan zijn productfoto’s essentieel voor je webshop. Met beelden die jouw product of dienst op de juiste manier weergeven, overtuig je klanten en bouw je vertrouwen op. Wij zorgen niet alleen voor een accurate weergave van je artikelen, maar creëren ook esthetisch mooie foto's die passen bij jouw merk en de juiste sfeer overbrengen."
   },
   {
-    title: 'lifestyle fotografie',
+    title: 'Lifestyle fotografie',
     content: "Wil je meer dan alleen je product of dienst laten zien? Dan kunnen we je misschien helpen met lifestylefotografie! Deze beelden versterken jouw merkidentiteit en zijn perfect inzetbaar op je website, social media, of in offline communicatie! Wat dit oplevert? Een herkenbare uitstraling, helderheid voor je klant én uiteindelijk meer klanten! Klinkt goed, toch? ;)"
   },
   {

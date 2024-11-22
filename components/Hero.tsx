@@ -6,15 +6,13 @@ export default function Hero() {
       <div className="container mx-auto max-w-6xl">
         {/* Logo Section */}
         <div className="relative flex flex-col items-center mb-16">
-          <h1 className="text-7xl md:text-8xl font-vibes text-[#B1030E] tracking-wider">
-            morris
-          </h1>
-          <p className="text-[#B9E1F6] font-roboto-mono text-2xl tracking-[0.2em]">
-            THE AGENCY
-          </p>
-          <div className="absolute top-0 right-0 md:right-20 animate-spin-slow">
-            <Image src="/assets/pinwheel.svg" alt="Decorative pinwheel" width={40} height={40} />
-          </div>
+          <Image
+            src="/assets/morris-the-agency.png"
+            alt="Morris The Agency"
+            width={300}
+            height={100}
+            className="object-contain"
+          />
         </div>
 
         {/* Image Grid */}
@@ -43,21 +41,21 @@ export default function Hero() {
           <p className="text-2xl md:text-3xl tracking-wider">
             MORRIS IS EEN CREATIEVE AGENCY,
           </p>
-          <p className="text-2xl md:text-3xl tracking-wider flex flex-wrap justify-center gap-x-2">
+          <div className="text-2xl md:text-3xl tracking-wider flex flex-wrap justify-center gap-x-2">
             <span>GESPECIALISEERD IN</span>
             <span className="relative inline-flex items-center">
               <span className="relative z-10 px-2">FOTOGRAFIE</span>
               <span className="absolute inset-0 border-2 border-[#B1030E] rounded-full"></span>
             </span>
             <span>&</span>
-            <div className="flex justify-center items-center">
+            <span className="relative inline-flex items-center">
               <span className="relative z-10 whitespace-nowrap">SOCIAL</span>
-            </div>
+            </span>
             <span className="relative inline-flex items-center">
               <span className="relative z-10 px-2">MEDIA</span>
               <span className="absolute inset-0 border-2 border-[#B1030E]"></span>
             </span>
-          </p>
+          </div>
         </div>
       </div>
     </section>

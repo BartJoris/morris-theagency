@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
 import { useEffect } from 'react'
 
 export default function Header() {
@@ -30,16 +29,17 @@ export default function Header() {
 
   return (
     <header className="bg-[#FAF6EF] p-4 sticky top-0 z-50">
-      <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-4xl font-vibes text-[#B1030E]">
-          <Image src="/assets/logo.png" alt="Morris The Agency Logo" width={150} height={50} />
+      <div className="container mx-auto flex justify-end items-center space-x-4">
+        <Link href="#services">
+          <button className="bg-[#B1030E] text-white font-roboto-mono py-2 px-6 rounded-full shadow-md transition duration-300 ease-in-out hover:bg-[#F24957] hover:shadow-lg">
+            Diensten
+          </button>
         </Link>
-        <nav>
-          <ul className="flex space-x-4 font-roboto-mono text-[#0D0D0D]">
-            <li><Link href="#services">Services</Link></li>
-            <li><Link href="#contact">Contact</Link></li>
-          </ul>
-        </nav>
+        <Link href="#contact">
+          <button className="bg-[#B9E1F6] text-[#0D0D0D] font-roboto-mono py-2 px-6 rounded-full shadow-md transition duration-300 ease-in-out hover:bg-[#A0C4E0] hover:shadow-lg">
+            Contact
+          </button>
+        </Link>
       </div>
     </header>
   )
