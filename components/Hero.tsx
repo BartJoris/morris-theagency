@@ -13,16 +13,16 @@ export default function Hero() {
             THE AGENCY
           </p>
           <div className="absolute top-0 right-0 md:right-20 animate-spin-slow">
-            <Image src="/morris-theagency/assets/pinwheel.svg" alt="Decorative pinwheel" width={40} height={40} />
+            <Image src="/assets/pinwheel.svg" alt="Decorative pinwheel" width={40} height={40} />
           </div>
         </div>
 
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
           {[
-            '/morris-theagency/assets/hero-image-1.jpg',
-            '/morris-theagency/assets/hero-image-2.jpg',
-            '/morris-theagency/assets/hero-image-3.jpg'
+            '/assets/hero-image-1.jpg',
+            '/assets/hero-image-2.jpg',
+            '/assets/hero-image-3.jpg'
           ].map((src, index) => (
             <div
               key={index}

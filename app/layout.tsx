@@ -17,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${robotoMono.variable} ${vibes.variable}`}>
       <head>
-        <link rel="icon" href="/morris-theagency/assets/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/morris-theagency/assets/favicon.ico" sizes="any" />
+        <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/assets/favicon.ico" sizes="any" />
       </head>
       <body>{children}</body>
     </html>
