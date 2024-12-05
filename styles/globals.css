@@ -20,3 +20,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-vibes), cursive;
   color: var(--color-primary);
 }
+
+.rotating-logo {
+  width: 200px; /* Adjust the size as needed */
+  animation: rotate 10s linear infinite; /* Rotate every 5 seconds */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

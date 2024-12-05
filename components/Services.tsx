@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { Plus, Minus } from 'lucide-react'
 import { Button } from "@/components/ui/button"
+import Link from 'next/link'
 
 const services = [
   {
@@ -15,8 +16,8 @@ const services = [
     content: "Wil je meer dan alleen je product of dienst laten zien? Dan kunnen we je misschien helpen met lifestylefotografie! Deze beelden versterken jouw merkidentiteit en zijn perfect inzetbaar op je website, social media, of in offline communicatie! Wat dit oplevert? Een herkenbare uitstraling, helderheid voor je klant én uiteindelijk meer klanten! Klinkt goed, toch? ;)"
   },
   {
-    title: 'Merkverhalen',
-    content: "Met onze merkverhalen vertaal je jouw waarden direct naar je publiek via beeld en tekst. Samen duiken we in jouw authentieke verhaal, wat we vervolgens omzetten in een krachtige tekst, aangevuld met een fotoreportage. Het resultaat? Originele content die niet alleen nieuwe fans aantrekt, maar ook de band met je bestaande klanten versterkt!"
+    title: 'Sportfotografie',
+    content: "Ben jij een sporter of organiseer je sportevenementen? Dan ben je vast op zoek naar iemand die jouw sportieve prestaties vastlegt! Wat dacht je van beelden die niet alleen de hoogtepunten vastleggen, maar ook esthetisch zijn en anderen inspireren om mee te doen? Ook voor die unieke beelden ben je bij Morris aan het juiste adres!"
   },
   {
     title: 'Social media',
@@ -98,13 +99,12 @@ export default function Services() {
 
         <div className="text-center">
           <p className="inline-block bg-[#F24957] text-white px-8 py-4 rounded-full font-roboto-mono">
-            <a href="#contact" className="cursor-pointer">
-              Neem contact met ons op voor meer informatie en prijsdetails! 🌸
-            </a>
+            <Link href="/prijzen" className="cursor-pointer">
+              Bekijk hier onze prijzen! 🌸
+            </Link>
           </p>
         </div>
       </div>
     </section>
   )
 }
-

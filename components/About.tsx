@@ -32,9 +32,6 @@ export default function About() {
             <h2 className="text-5xl font-roboto-mono text-[#B1030E]">
               Wiese Deleu
             </h2>
-            <div className="absolute -right-8 top-0 animate-spin-slow">
-              <Image src="/assets/pinwheel.svg" alt="Decorative pinwheel" width={40} height={40} />
-            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">

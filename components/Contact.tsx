@@ -1,7 +1,8 @@
 import Link from 'next/link'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Mail,Facebook, Instagram, Linkedin } from 'lucide-react'
-import Image from 'next/image'
+// import Image from 'next/image'
+// import Logo from '/assets/Logo_Vierkant.svg';
 
 export default function Contact() {
   return (
@@ -18,7 +19,7 @@ export default function Contact() {
           {/* Pinwheel in the middle */}
           <div className="flex justify-center">
             <div className="w-32 h-32 animate-spin-slow">
-              <Image src="/assets/pinwheel.svg" alt="Decorative pinwheel" width={128} height={128} />
+              <img src="/assets/Logo_Vierkant.svg" alt="Decorative pinwheel" className='rotating-logo' />
             </div>
           </div>
 
