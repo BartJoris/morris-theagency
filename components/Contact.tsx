@@ -11,8 +11,8 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {/* Title on the left */}
           <div className="text-left">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-roboto-mono text-[#B1030E] leading-tight">
-              Samen die molen laten draaien
+            <h2 className="text-4xl md:text-3xl lg:text-4xl font-roboto-mono text-[#B1030E] leading-tight">
+              Samen die molen laten draaien?
             </h2>
           </div>
 

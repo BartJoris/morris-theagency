@@ -5,12 +5,12 @@ export default function Hero() {
     <section className="bg-[#FAF6EF] py-12 px-4">
       <div className="container mx-auto max-w-6xl">
         {/* Logo Section */}
-        <div className="relative flex flex-col items-center mb-16">
+        <div className="relative flex flex-col items-center mb-8">
           <Image
             src="/assets/morris-the-agency.png"
             alt="Morris The Agency"
-            width={300}
-            height={100}
+            width={500}
+            height={200}
             className="object-contain"
           />
         </div>
