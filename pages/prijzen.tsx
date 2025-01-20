@@ -55,7 +55,7 @@ const Prijzen = () => {
             </div>
           </div>
           <div className="ribbon-container relative mb-16">
-            <div className="ribbon bg-red-500 text-white font-semibold py-2 px-4 rounded-full shadow-lg absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+            <div className="ribbon bg-red-500 text-white font-semibold py-2 px-4 rounded-full shadow-lg absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-full md:w-auto text-center">
               Starten kan bij ons zonder opstartkost!
             </div>
           </div>
@@ -162,7 +162,7 @@ const Prijzen = () => {
           <p className="text-2xl font-roboto-mono text-[#B1030E] mb-1">Niet gevonden wat je zocht? Neem gerust</p>
           <p className="text-2xl font-roboto-mono text-[#B1030E] mb-1">contact met ons op, dan kijken we samen om</p>
             <p className="text-2xl font-roboto-mono text-[#B1030E] mb-10">een pakket op maat samen te stellen!</p>
-          <a href="mailto:wiese@morrisstheagency.be" className="bg-[#F24957] text-white px-8 py-4 rounded-full font-roboto-mono inline-block">wiese@morrisstheagency.be</a>
+          <a href="mailto:wiese@morristheagency.be" className="bg-[#F24957] text-white px-8 py-4 rounded-full font-roboto-mono inline-block">wiese@morristheagency.be</a>
         </section>
       </div>
     </section>
