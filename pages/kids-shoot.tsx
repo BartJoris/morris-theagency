@@ -3,6 +3,8 @@ import Head from 'next/head'
 import type { NextPage } from 'next'
 import { useState } from 'react'
 import ImageModal from '../components/ImageModal'
+import Link from 'next/link'
+import { ArrowLeft } from 'lucide-react'
 
 const KidsShoot: NextPage = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(null);
@@ -34,6 +36,10 @@ const KidsShoot: NextPage = () => {
       </Head>
 
       <div className="bg-[#FAF6EF] min-h-screen px-4 py-12 font-montserrat">
+        <Link href="/" className="text-[#B1030E] font-roboto-mono text-3xl inline-block mb-4 absolute top-4 left-4">
+          <ArrowLeft />
+        </Link>
+
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <h1 className="text-4xl md:text-5xl text-center mb-8 font-roboto-mono text-[#B1030E]">

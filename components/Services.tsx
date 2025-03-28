@@ -9,11 +9,27 @@ import Link from 'next/link'
 const services = [
   {
     title: 'Product fotografie',
-    content: "Verkoop je online? Dan zijn productfoto’s essentieel voor je webshop. Met beelden die jouw product of dienst op de juiste manier weergeven, overtuig je klanten en bouw je vertrouwen op. Wij zorgen niet alleen voor een accurate weergave van je artikelen, maar creëren ook esthetisch mooie foto's die passen bij jouw merk en de juiste sfeer overbrengen."
+    content: "Verkoop je online? Dan zijn productfoto's essentieel voor je webshop. Met beelden die jouw product of dienst op de juiste manier weergeven, overtuig je klanten en bouw je vertrouwen op. Wij zorgen niet alleen voor een accurate weergave van je artikelen, maar creëren ook esthetisch mooie foto's die passen bij jouw merk en de juiste sfeer overbrengen."
   },
   {
     title: 'Lifestyle fotografie',
     content: "Wil je meer dan alleen je product of dienst laten zien? Dan kunnen we je misschien helpen met lifestylefotografie! Deze beelden versterken jouw merkidentiteit en zijn perfect inzetbaar op je website, social media, of in offline communicatie! Wat dit oplevert? Een herkenbare uitstraling, helderheid voor je klant én uiteindelijk meer klanten! Klinkt goed, toch? ;)"
+  },
+  {
+    title: "Kids shoot",
+    content: (
+      <div>
+        <p>Wil je graag spontane en vrolijke foto&apos;s van je kids, maar lukt het zelf niet altijd om die momenten vast te leggen? Morris biedt vanaf nu superleuke kids fotoshoots aan, helemaal afgestemd op jouw wensen! Kies voor een shoot in onze gezellige studio of lekker buiten op het strand—perfect voor communiefoto&apos;s, een verjaardag of gewoon mooie herinneringen voor later.</p>
+        <div className="mt-4">
+          <Link
+            href="/kids-shoot"
+            className="inline-block bg-[#F24957] text-white px-6 py-2 rounded-full font-roboto-mono hover:bg-[#B1030E] transition-colors"
+          >
+            Meer info
+          </Link>
+        </div>
+      </div>
+    )
   },
   {
     title: 'Sportfotografie',
